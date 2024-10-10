@@ -31,4 +31,5 @@ This is a simple and responsive web application that allows users to generate QR
 
 No installation is required! Simply visit the deployed version of the application and check it out.
 
-[Link to the QR Generator](https://github.com/MOHD-SHAMOON-04/QR_Code_Gen_JS_1.0)
+[Link to the QR Generator](https://mohd-shamoon-04.github.io/QR_Code_Gen_JS_1.0/)
+
