@@ -10,4 +10,4 @@ The **QR Code Generator** is an innovative and user-friendly web application des
 
 This QR Code Generator is perfect for various applications, whether you need QR codes for marketing materials, event tickets, or simply to share links quickly. It streamlines the process of creating QR codes, saving users time and effort.
 
-Special thanks to **[MOHD SHAMOON]([https://github.com/Shamoon](https://github.com/MOHD-SHAMOON-04))** for their  inspiration throughout the development of this project. 
+Special thanks to **MOHD SHAMOON (https://github.com/MOHD-SHAMOON-04)** for their  inspiration throughout the development of this project. 
