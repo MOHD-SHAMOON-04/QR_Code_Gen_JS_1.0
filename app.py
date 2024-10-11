@@ -7,7 +7,6 @@ def index():
     if request.method == 'POST':
         qr_input = request.form.get('qr_input')
         if qr_input:
-            # Redirect to the same page with the QR input to generate the QR code
             return render_template('index.html', qr_code=qr_input)
     return render_template('index.html', qr_code=None)
 
