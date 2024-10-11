@@ -7,7 +7,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(90deg, #2a264b, #2b4631);
-    /* #8178a8 , #44704e */
     color: #fff;
     font-size: 16px;
 }
@@ -47,7 +46,6 @@ body {
     background: #2b2f9e;
     border: 1px solid #c0f0ff;
     color: #fff;
-    /* border: 0; */
     outline: 0;
     border-radius: 0.3rem;
     box-shadow: 0 0.7rem 0.7rem rgba(0, 0, 0, 0.2);
@@ -58,11 +56,6 @@ body {
 }
 
 #img_box {
-    /* the below lines was for download button */
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
     width: 80%;
     border-radius: 0.4rem;
     max-height: 0;
@@ -86,10 +79,8 @@ body {
 
 @media screen and (max-width: 600px) {
     .qr {
-        /* padding: 1rem; */
         max-width: 300px;
         width: 80vw;
-        height: auto;
         margin: 10vh auto;
         padding: 2rem;
     }
@@ -109,7 +100,6 @@ body {
     #img_box {
         width: 100%;
     }
-
 }
 
 .error {
@@ -120,19 +110,15 @@ body {
     0% {
         transform: translateX(0);
     }
-
     25% {
         transform: translateX(-0.2rem);
     }
-
     50% {
         transform: translateX(0);
     }
-
     75% {
         transform: translateX(+0.2rem);
     }
-
     100% {
         transform: translateX(0);
     }
