@@ -9,17 +9,16 @@ function generateQR(event) {
     let imgBox = document.getElementById('img_box');
 
     if (qrInput.value.length > 0) {
-        // Generate QR code
+       
         qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(qrInput.value)}`;
         qrImg.style.display = 'block';
         imgBox.classList.add('show-img');
 
-        // Update the download link and make it visible
+        
         downloadLink.href = qrImg.src;
         downloadLink.style.display = 'block'; 
 
-        qrGenerated = true; // Mark that QR has been generated
-
+        qrGenerated = true; 
     } else {
         qrInput.classList.add('error');
         setTimeout(() => {
